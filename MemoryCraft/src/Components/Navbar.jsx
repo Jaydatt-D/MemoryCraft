@@ -17,9 +17,9 @@ function Navbar() {
         <Logo />
       </div>
       <div className="w-1/2 h-full flex gap-8 justify-start items-center text-xl font-medium">
-        {element({text:'Visualise'})}
-        {element({text:'Practice'})}
         {element({text:'Learn'})}
+        {element({text:'Practice'})}
+        {element({text:'Visualise'})}
       </div>
     </div>
   );
