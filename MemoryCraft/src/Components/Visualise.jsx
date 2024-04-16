@@ -8,7 +8,7 @@ function Visualise() {
   const [Fixed, setFixed] = useState(false);
   const [Dyn, setDyn] = useState(false);
   return (
-    <div className="h-[95vh] w-full flex flex-col items-center justify-center">
+    <div className="min-h-[95vh] w-full flex flex-col items-center justify-center">
         <div className="text-3xl font-semibold"><span className="text-logo-color">Memory Allocation</span> Algorithms</div>
       <div className=" h-[85vh] w-[80%] flex flex-col items-center justify-center">
         <div className="h-[10%] w-[70%] text-3xl items-center justify-center flex font-semibold border-b-logo-color border-b-2">
