@@ -1,8 +1,9 @@
 import React from 'react'
 
-function DynamicPt() {
+function DynamicPt(props) {
+  
   return (
-    <div>
+    <div className="h-[100vh] w-full">
       
     </div>
   )
