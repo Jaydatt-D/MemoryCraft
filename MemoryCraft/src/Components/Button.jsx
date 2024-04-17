@@ -3,7 +3,7 @@ import React from 'react'
 function Button(props) {
   return (
     <button
-      className={`text-white text-lg py-2 rounded-lg hover:${props.bghov} ${props.bg} duration-300 ease-linear font-semibold`}
+      className={`text-white text-lg py-2 rounded-lg ${props.bg} hover:${props.bghov} duration-300 ease-linear font-semibold`}
       style={{
         paddingLeft: props.x,
         paddingRight: props.x,

@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/NU/SEM4/OS",
-      "program": "c:/NU/SEM4/OS/build/Debug/outDebug",
+      "cwd": "c:/Users/jayda/AppData/Local/Microsoft/Windows/INetCache/IE/6UORV03K",
+      "program": "c:/Users/jayda/AppData/Local/Microsoft/Windows/INetCache/IE/6UORV03K/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
