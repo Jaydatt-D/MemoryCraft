@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import Navbar from './Components/Navbar'  
 import Visualise from './Components/Visualise'
 import Learn from './Components/Learn'
+import Footer from './Components/Footer'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path='/' element={<Learn />} />
         <Route path='/visualise' element={<Visualise />} />
       </Routes>
+      <Footer/>
     </div>
   )
 }
