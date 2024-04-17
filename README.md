@@ -1,2 +1,2 @@
 # MemoryCraft
-Memory Allocation Algorithms - First Fit, Next Fit, Worts Fit, Best Fit
+Memory Allocation Algorithms - First Fit, Next Fit, Worst Fit, Best Fit
