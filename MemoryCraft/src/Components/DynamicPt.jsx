@@ -60,7 +60,7 @@ function DynamicPt(props) {
         </div>
         <div className="h-full w-full flex justify-evenly items-center mt-9">
           <p className="text-xl h-full text-logo-color flex flex-col">
-            Internal Fragmentation:{" "}
+            External Fragmentation:{" "}
             <span className="text-red-400">{Fragmentation} KB</span>
           </p>
           <div className="h-full">
@@ -137,7 +137,7 @@ function DynamicPt(props) {
         </div>
         <div className="h-full w-full flex justify-evenly items-center mt-9">
           <p className="text-xl h-full text-logo-color flex flex-col">
-            Internal Fragmentation:{" "}
+            External Fragmentation:{" "}
             <span className="text-red-400">{Fragmentation} KB</span>
           </p>
           <div className="h-full">
@@ -216,7 +216,7 @@ function DynamicPt(props) {
         </div>
         <div className="h-full w-full flex justify-evenly items-center mt-9">
           <p className="text-xl h-full text-logo-color flex flex-col">
-            Internal Fragmentation:{" "}
+            External Fragmentation:{" "}
             <span className="text-red-400">{Fragmentation} KB</span>
           </p>
           <div className="h-full">
@@ -295,7 +295,7 @@ function DynamicPt(props) {
         </div>
         <div className="h-full w-full flex justify-evenly items-center mt-9">
           <p className="text-xl h-full text-logo-color flex flex-col">
-            Internal Fragmentation:{" "}
+            External Fragmentation:{" "}
             <span className="text-red-400">{Fragmentation} KB</span>
           </p>
           <div className="h-full">
