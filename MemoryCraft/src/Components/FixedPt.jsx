@@ -207,14 +207,14 @@ function FixedPt(props) {
     let next = Array(memory.length).fill(-1);
     let Fragmentation = 0;
     for (let i = 0; i < processes.length; i++) {
-      let maxGap = 1000000000000000,
+      let minGap = 1000000000000000,
         ind = -1;
       let pSz = parseInt(processes[i]);
       for (let j = 0; j < memory.length; j++) {
         if(next[j] != -1) continue;
         let memSz = parseInt(memory[j]);
-        if (!doneMemory.includes(j) && memSz >= pSz && maxGap > memSz - pSz && !doneProcess.includes(i)) {
-          maxGap = memSz - pSz;
+        if (!doneMemory.includes(j) && memSz >= pSz && minGap > memSz - pSz && !doneProcess.includes(i)) {
+          minGap = memSz - pSz;
           ind = j;
         }
       }

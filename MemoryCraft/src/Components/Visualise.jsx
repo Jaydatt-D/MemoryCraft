@@ -191,7 +191,7 @@ function Visualise() {
         func={()=>{
           if(process.length && memory.length){
             setShowFit(!showFit)
-          }else{
+          }else{  
             alert("Memory Empty or Process not available!");
           }
         }}
