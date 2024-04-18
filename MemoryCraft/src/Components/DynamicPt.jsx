@@ -24,10 +24,10 @@ function DynamicPt(props) {
         }
       }
     }
-    for (let i = 0; i < memory.length; i++) {
-      const el = parseInt(memory[i]);
-      if(parseInt(mem[i]) != el){
-        Fragmentation += mem[i];
+    for (let i = 0; i < processes.length; i++) {
+      const el = parseInt(processes[i]);
+      if(!doneProcess.includes(i)){
+        Fragmentation += el;
       }
     }
     return (
@@ -101,10 +101,10 @@ function DynamicPt(props) {
         }
       }
     }
-    for (let i = 0; i < memory.length; i++) {
-      const el = parseInt(memory[i]);
-      if(parseInt(mem[i]) != el){
-        Fragmentation += mem[i];
+    for (let i = 0; i < processes.length; i++) {
+      const el = parseInt(processes[i]);
+      if(!doneProcess.includes(i)){
+        Fragmentation += el;
       }
     }
     return (
@@ -180,10 +180,10 @@ function DynamicPt(props) {
         doneProcess.push(i);
       }
     }
-    for (let i = 0; i < memory.length; i++) {
-      const el = parseInt(memory[i]);
-      if(parseInt(mem[i]) != el){
-        Fragmentation += mem[i];
+    for (let i = 0; i < processes.length; i++) {
+      const el = parseInt(processes[i]);
+      if(!doneProcess.includes(i)){
+        Fragmentation += el;
       }
     }
     return (
@@ -259,10 +259,10 @@ function DynamicPt(props) {
         doneProcess.push(i);
       }
     }
-    for (let i = 0; i < memory.length; i++) {
-      const el = parseInt(memory[i]);
-      if(parseInt(mem[i]) != el){
-        Fragmentation += mem[i];
+    for (let i = 0; i < processes.length; i++) {
+      const el = parseInt(processes[i]);
+      if(!doneProcess.includes(i)){
+        Fragmentation += el;
       }
     }
     return (
